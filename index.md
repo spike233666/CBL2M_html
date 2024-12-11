@@ -13,11 +13,69 @@ The following samples are melodies generated based on given **lyric** and **chor
 
 **Lyric**:
 ```
-1 2 3 4
+Said I paid my dues for what’s done, and I’ll show you. You said, 'You trick me once, has always been trick.'
 ```
 **Chord**:
 ```
-C G Am F
+Cdim C#m7b5 C# Ab Ebm7 C#
+```
+**Sheet Music:**
+<embed src="assets/pdf/144.pdf" width="600" height="400" type="application/pdf">
+
+
+**Melody:**  
+<audio controls>
+  <source src="assets/audio/144.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+**Singing:**  
+<audio controls>
+  <source src="assets/audio/144_vocal.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+
+
+---
+
+## English Sample 2
+
+**Lyric**:
+```
+With a purple umbrella and a cent, just a woman. Missus Cool rides out in her aged, just a woman.
+```
+**Chord**:
+```
+Am7 F Bm7b5 Am7 F Bm7
+```
+**Sheet Music:**
+<embed src="assets/pdf/312.pdf" width="600" height="400" type="application/pdf">
+
+
+**Melody:**  
+<audio controls>
+  <source src="assets/audio/312.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+**Singing:**  
+<audio controls>
+  <source src="assets/audio/312_vocal.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
+## English Sample 3
+
+**Lyric**:
+```
+And I miss you, like the desert's mystery.And I miss you, yeah, like the desert's mystery.
+```
+**Chord**:
+```
+G Dm Am Dm7 Em7 C
 ```
 **Sheet Music:**
 <embed src="assets/pdf/279.pdf" width="600" height="400" type="application/pdf">
@@ -35,10 +93,54 @@ C G Am F
   Your browser does not support the audio element.
 </audio>
 
+## Chinese Sample 1
+
+**Lyric**:
+```
+信上呃倾诉啊肺腑言啊哎哟字字句啊句啊痛呃断哪肠哪苍天降哪下啊无呃情剑哪斩断人间啊
+```
+**Chord**:
+```
+Am Em7 Am Em7 Am Em Am C Am C Em7 Am  
+```
+**Sheet Music:**
+<embed src="assets/pdf/zh_0.pdf" width="600" height="400" type="application/pdf">
 
 
----
+**Melody:**  
+<audio controls>
+  <source src="assets/audio/zh_0.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
 
-## English Sample 2
+**Singing:**  
+<audio controls>
+  <source src="assets/audio/zh_0_vocal.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
 
-**Lyrics**:
+## Chinese Sample 2
+
+**Lyric**:
+```
+四拜梁哥啊墓台前草桥结拜情谊深眼泪流干情不尽梁哥墓台葬我心  
+```
+**Chord**:
+```
+Am7 C Dm7 C Am7 C Am7 Em7 Am7
+```
+**Sheet Music:**
+<embed src="assets/pdf/zh_9.pdf" width="600" height="400" type="application/pdf">
+
+
+**Melody:**  
+<audio controls>
+  <source src="assets/audio/zh_9.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+**Singing:**  
+<audio controls>
+  <source src="assets/audio/zh_9_vocal.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
