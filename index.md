@@ -20,27 +20,22 @@ The following samples are melodies generated based on given lyric and chord text
 C G Am F
 ```
 **Sheet Music:**
-<embed src="/assets/pdf/279.pdf" width="600" height="400" type="application/pdf">
+<embed src="assets/pdf/279.pdf" width="600" height="400" type="application/pdf">
 
 
 **Melody:**  
 <audio controls>
-  <source src="/assets/audio/279.wav" type="audio/wav">
+  <source src="assets/audio/279.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 **Singing:**  
 <audio controls>
-  <source src="/assets/audio/279_vocal.wav" type="audio/wav">
+  <source src="assets/audio/279_vocal.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 
-<!-- **Sheet Music**: [Download PDF](/assets/pdf/sample1_notation.pdf)
-
-**Melody**: [Play Melody](/assets/audio/sample1_melody.wav)
-
-**Singing**: [Play Singing](/assets/audio/sample1_singing.wav) -->
 
 ---
 
