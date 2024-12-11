@@ -20,7 +20,7 @@ Said I paid my dues for what’s done, and I’ll show you. You said, 'You trick
 Cdim C#m7b5 C# Ab Ebm7 C#
 ```
 **Sheet Music:**
-<embed src="assets/pdf/144.pdf" width="600" height="400" type="application/pdf">
+<embed src="assets/pdf/144.pdf" width="600" height="280" type="application/pdf">
 
 
 **Melody:**  
@@ -50,7 +50,7 @@ With a purple umbrella and a cent, just a woman. Missus Cool rides out in her ag
 Am7 F Bm7b5 Am7 F Bm7
 ```
 **Sheet Music:**
-<embed src="assets/pdf/312.pdf" width="600" height="400" type="application/pdf">
+<embed src="assets/pdf/312.pdf" width="600" height="280" type="application/pdf">
 
 
 **Melody:**  
@@ -78,7 +78,7 @@ And I miss you, like the desert's mystery.And I miss you, yeah, like the desert'
 G Dm Am Dm7 Em7 C
 ```
 **Sheet Music:**
-<embed src="assets/pdf/279.pdf" width="600" height="400" type="application/pdf">
+<embed src="assets/pdf/279.pdf" width="600" height="280" type="application/pdf">
 
 
 **Melody:**  
@@ -104,7 +104,7 @@ G Dm Am Dm7 Em7 C
 Am Em7 Am Em7 Am Em Am C Am C Em7 Am  
 ```
 **Sheet Music:**
-<embed src="assets/pdf/zh_0.pdf" width="600" height="400" type="application/pdf">
+<embed src="assets/pdf/zh_0.pdf" width="600" height="280" type="application/pdf">
 
 
 **Melody:**  
@@ -130,7 +130,7 @@ Am Em7 Am Em7 Am Em Am C Am C Em7 Am
 Am7 C Dm7 C Am7 C Am7 Em7 Am7
 ```
 **Sheet Music:**
-<embed src="assets/pdf/zh_9.pdf" width="600" height="400" type="application/pdf">
+<embed src="assets/pdf/zh_9.pdf" width="600" height="280" type="application/pdf">
 
 
 **Melody:**  
