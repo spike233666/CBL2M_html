@@ -1,123 +1,36 @@
 ---
 layout: default
+title: "CBL2M"
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Abstract
+Lyric-to-melody generation task can support composers in their creative process，helping to improve their work efficiency. Previous studies typically rely on extensive additional data for pre-training. Moreover, they encounter the issue of not fully exploiting the rich contextual information available in existing datasets to support generation. To address the above issues, we propose a Chord-integrated and Bar-level modeled end-to-end Lyric-to-Melody (CBL2M) generation model, effectively enriching contextual information based on existing quantitative data. To enhance the representation capabilities of the encoder, we extract chords from the melody and encode the lyrics and chords separately. In the decoder, we compute lyric-melody and chord-melody cross-attention. Furthermore, to accurately capture the regularities in bar durations within the melody, we design two specialized musical token sequences: the bar token sequence and the bar intra-position token sequence. We conduct extensive experiments on two datasets, with both subjective and objective evaluation metrics showing CBL2M generates high-quality, accurate melodies that outperform existing models.
 
-[Link to another page](./another-page.html).
+# Sample Demonstrations
+The following samples are melodies generated based on given lyric and chord texts. Multiple presentation formats are provided, including sheet music, MIDI audio, and singing audio.Here,we use ACE Studio to synthesize singing voices corresponding to the melodies.
 
-There should be whitespace between paragraphs.
+## English Sample 1
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+**Lyric**:
+1 2 3 4
 
-# Header 1
+**Chord**:
+C G Am F
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+**Sheet Music**: [Download PDF](/assets/pdf/279.pdf)
 
-## Header 2
+**Melody**: [Play Melody](/assets/audio/279.wav)
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+**Singing**: [Play Singing](/assets/audio/279_vocal.wav)
 
-### Header 3
+<!-- **Sheet Music**: [Download PDF](/assets/pdf/sample1_notation.pdf)
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+**Melody**: [Play Melody](/assets/audio/sample1_melody.wav)
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+**Singing**: [Play Singing](/assets/audio/sample1_singing.wav) -->
 
-#### Header 4
+---
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+## English Sample 2
 
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+**Lyrics**:

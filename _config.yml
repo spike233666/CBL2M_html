@@ -1,5 +1,7 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: true
-google_analytics:
 theme: jekyll-theme-cayman
+
+title: "CBL2M"
+description: "End-to-End Lyric-to-Melody Generation via Chord Integration and Bar-Level Modeling"
+
+# Optional: Additional configuration
+markdown: kramdown
