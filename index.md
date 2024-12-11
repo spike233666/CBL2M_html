@@ -12,16 +12,29 @@ The following samples are melodies generated based on given lyric and chord text
 ## English Sample 1
 
 **Lyric**:
+```
 1 2 3 4
-
+```
 **Chord**:
+```
 C G Am F
+```
+**Sheet Music:**
+<embed src="/assets/pdf/279.pdf" width="600" height="400" type="application/pdf">
 
-**Sheet Music**: [Download PDF](/assets/pdf/279.pdf)
 
-**Melody**: [Play Melody](/assets/audio/279.wav)
+**Melody:**  
+<audio controls>
+  <source src="/assets/audio/279.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
 
-**Singing**: [Play Singing](/assets/audio/279_vocal.wav)
+**Singing:**  
+<audio controls>
+  <source src="/assets/audio/279_vocal.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
 
 <!-- **Sheet Music**: [Download PDF](/assets/pdf/sample1_notation.pdf)
 
