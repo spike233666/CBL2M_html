@@ -20,7 +20,7 @@ Said I paid my dues for what’s done, and I’ll show you. You said, 'You trick
 Cdim C#m7b5 C# Ab Ebm7 C#
 ```
 **Sheet Music:**
-<embed src="assets/pdf/144.pdf" width="600" height="250" type="application/pdf">
+<embed src="assets/pdf/144.pdf" width="600" height="270" type="application/pdf">
 
 
 **Melody:**  
@@ -50,7 +50,7 @@ With a purple umbrella and a cent, just a woman. Missus Cool rides out in her ag
 Am7 F Bm7b5 Am7 F Bm7
 ```
 **Sheet Music:**
-<embed src="assets/pdf/312.pdf" width="600" height="250" type="application/pdf">
+<embed src="assets/pdf/312.pdf" width="600" height="270" type="application/pdf">
 
 
 **Melody:**  
@@ -78,7 +78,7 @@ And I miss you, like the desert's mystery.And I miss you, yeah, like the desert'
 G Dm Am Dm7 Em7 C
 ```
 **Sheet Music:**
-<embed src="assets/pdf/279.pdf" width="600" height="250" type="application/pdf">
+<embed src="assets/pdf/279.pdf" width="600" height="270" type="application/pdf">
 
 
 **Melody:**  
@@ -97,14 +97,14 @@ G Dm Am Dm7 Em7 C
 
 **Lyric**:
 ```
-信上呃倾诉啊肺腑言啊哎哟字字句啊句啊痛呃断哪肠哪苍天降哪下啊无呃情剑哪斩断人间啊
+信上呃倾诉啊肺腑言啊哎哟，字字句啊句啊痛呃断哪肠哪，苍天降哪下啊无呃情剑哪，斩断人间啊。
 ```
 **Chord**:
 ```
 Am Em7 Am Em7 Am Em Am C Am C Em7 Am  
 ```
 **Sheet Music:**
-<embed src="assets/pdf/zh_0.pdf" width="600" height="250" type="application/pdf">
+<embed src="assets/pdf/zh_0.pdf" width="600" height="270" type="application/pdf">
 
 
 **Melody:**  
@@ -123,14 +123,14 @@ Am Em7 Am Em7 Am Em Am C Am C Em7 Am
 
 **Lyric**:
 ```
-四拜梁哥啊墓台前草桥结拜情谊深眼泪流干情不尽梁哥墓台葬我心  
+四拜梁哥啊墓台前，草桥结拜情谊深，眼泪流干情不尽，梁哥墓台葬我心。  
 ```
 **Chord**:
 ```
 Am7 C Dm7 C Am7 C Am7 Em7 Am7
 ```
 **Sheet Music:**
-<embed src="assets/pdf/zh_9.pdf" width="600" height="250" type="application/pdf">
+<embed src="assets/pdf/zh_9.pdf" width="600" height="270" type="application/pdf">
 
 
 **Melody:**  
