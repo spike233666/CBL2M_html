@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End-to-End Lyric-to-Melody Generation</title>
+    <style>
+        /* Simple CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header, footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+        }
+
+        pre {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        .sample {
+            margin-bottom: 30px;
+        }
+
+        .sample h3 {
+            color: #2980b9;
+        }
+
+        .section {
+            margin-bottom: 15px;
+        }
+
+        audio, embed {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            main {
+                padding: 15px;
+            }
+
+            audio, embed {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>End-to-End Lyric-to-Melody Generation</h1>
+    </header>
+
+    <main>
+        <section id="abstract">
+            <h2>Abstract</h2>
+            <p>The lyric-to-melody generation task can support composers in their creative process, helping to improve their work efficiency. However, existing studies suffer from inadequate utilization of chords and a lack of bar-level information in melodies. To address the above issues, we propose a Chord-integrated and Bar-level modeled end-to-end Lyric-to-Melody (CBL2M) generation model based on an encoder-decoder architecture, effectively enriching contextual information based on existing quantitative data. To enhance the representation capabilities of the encoder, we extract chords from the melody and encode the lyrics and chords separately. In the decoder, we compute lyric-melody and chord-melody cross-attention. Furthermore, to accurately capture the regularities in bar durations within the melody, we design two specialized musical token sequences: the bar token sequence and the bar intra-position token sequence. We conducted extensive experiments on two datasets, with both subjective and objective evaluation metrics showing that CBL2M generates accurate high-quality melodies that outperform existing models.</p>
+        </section>
+
+        <section id="samples">
+            <h2>Sample Demonstrations</h2>
+            <p>The following samples are melodies generated based on given <strong>lyric</strong> and <strong>chord</strong> texts. Multiple presentation formats are provided, including <strong>sheet music</strong>, <strong>MIDI audio</strong>, and <strong>singing audio</strong>. Here, we use ACE Studio to synthesize singing voices corresponding to the melodies.</p>
+
+            <!-- English Sample 1 -->
+            <div class="sample">
+                <h3>English Sample 1</h3>
+                <div class="section">
+                    <h4>Lyric</h4>
+                    <pre>
+Said I paid my dues for what’s done, and I’ll show you. You said, 'You trick me once, has always been trick.'
+                    </pre>
+                </div>
+                <div class="section">
+                    <h4>Chord</h4>
+                    <pre>
+Cdim C#m7b5 C# Ab Ebm7 C#
+                    </pre>
+                </div>
+                <div class="section">
+                    <h4>Sheet Music</h4>
+                    <embed src="assets/pdf/144.pdf" type="application/pdf">
+                </div>
+                <div class="section">
+                    <h4>Melody</h4>
+                    <audio controls>
+                        <source src="assets/audio/144.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="section">
+                    <h4>Singing</h4>
+                    <audio controls>
+                        <source src="assets/audio/144_vocal.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+
+            <!-- English Sample 2 -->
+            <div class="sample">
+                <h3>English Sample 2</h3>
+                <div class="section">
+                    <h4>Lyric</h4>
+                    <pre>
+With a purple umbrella and a cent, just a woman. Missus Cool rides out in her aged, just a woman.
+                    </pre>
+                </div>
+                <div class="section">
+                    <h4>Chord</h4>
+                    <pre>
+Am7 F Bm7b5 Am7 F Bm7
+                    </pre>
+                </div>
+                <div class="section">
+                    <h4>Sheet Music</h4>
+                    <embed src="assets/pdf/312.pdf" type="application/pdf">
+                </div>
+                <div class="section">
+                    <h4>Melody</h4>
+                    <audio controls>
+                        <source src="assets/audio/312.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="section">
+                    <h4>Singing</h4>
+                    <audio controls>
+                        <source src="assets/audio/312_vocal.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+
+            <!-- English Sample 3 -->
+            <div class="sample">
+                <h3>English Sample 3</h3>
+                <div class="section">
+                    <h4>Lyric</h4>
+                    <pre>
+And I miss you, like the desert's mystery. And I miss you, yeah, like the desert's mystery.
+                    </pre>
+                </div>
+                <div class="section">
+                    <h4>Chord</h4>
+                    <pre>
+G Dm Am Dm7 Em7 C
+                    </pre>
+                </div>
+                <div class="section">
+                    <h4>Sheet Music</h4>
+                    <embed src="assets/pdf/279.pdf" type="application/pdf">
+                </div>
+                <div class="section">
+                    <h4>Melody</h4>
+                    <audio controls>
+                        <source src="assets/audio/279.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="section">
+                    <h4>Singing</h4>
+                    <audio controls>
+                        <source src="assets/audio/279_vocal.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+
+            <!-- Chinese Sample 1 -->
+            <div class="sample">
+                <h3>Chinese Sample 1</h3>
+                <div class="section">
+                    <h4>Lyric</h4>
+                    <pre>
+信上呃倾诉啊肺腑言啊哎哟，字字句啊句啊痛呃断哪肠哪，苍天降哪下啊无呃情剑哪，斩断人间啊。
+                    </pre>
+                </div>
+                <div class="section">
+                    <h4>Chord</h4>
+                    <pre>
+Am Em7 Am Em7 Am Em Am C Am C Em7 Am
+                    </pre>
+                </div>
+                <div class="section">
+                    <h4>Sheet Music</h4>
+                    <embed src="assets/pdf/zh_0.pdf" type="application/pdf">
+                </div>
+                <div class="section">
+                    <h4>Melody</h4>
+                    <audio controls>
+                        <source src="assets/audio/zh_0.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="section">
+                    <h4>Singing</h4>
+                    <audio controls>
+                        <source src="assets/audio/zh_0_vocal.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+
+            <!-- Chinese Sample 2 -->
+            <div class="sample">
+                <h3>Chinese Sample 2</h3>
+                <div class="section">
+                    <h4>Lyric</h4>
+                    <pre>
+四拜梁哥啊墓台前，草桥结拜情谊深，眼泪流干情不尽，梁哥墓台葬我心。
+                    </pre>
+                </div>
+                <div class="section">
+                    <h4>Chord</h4>
+                    <pre>
+Am7 C Dm7 C Am7 C Am7 Em7 Am7
+                    </pre>
+                </div>
+                <div class="section">
+                    <h4>Sheet Music</h4>
+                    <embed src="assets/pdf/zh_9.pdf" type="application/pdf">
+                </div>
+                <div class="section">
+                    <h4>Melody</h4>
+                    <audio controls>
+                        <source src="assets/audio/zh_9.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="section">
+                    <h4>Singing</h4>
+                    <audio controls>
+                        <source src="assets/audio/zh_9_vocal.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
