@@ -61,11 +61,17 @@
 
         audio, embed {
             width: 100%;
-            max-width: 800px; /* 调整最大宽度以适应更长的PDF展示框 */
-            height: 800px; /* 设置更高的高度 */
+            max-width: 600px;
             margin-top: 10px;
         }
 
+        /* 单独调整 PDF 展示框的高度 */
+        .pdf-embed {
+            width:700px;
+            height: 300px; /* 您可以根据需要调整此值 */
+        }
+
+        /* 响应式设计 */
         @media (max-width: 600px) {
             body {
                 padding: 10px;
@@ -77,14 +83,17 @@
 
             audio, embed {
                 max-width: 100%;
-                height: 600px; /* 在较小屏幕上调整高度 */
+            }
+
+            /* 调整 PDF 展示框在移动设备上的高度 */
+            .pdf-embed {
+                height: 400px; /* 在较小屏幕上稍微减小高度 */
             }
         }
     </style>
 </head>
 <body>
     <header>
-        <!-- <h1>End-to-End Lyric-to-Melody Generation</h1> -->
     </header>
 
     <main>
@@ -93,7 +102,7 @@
 
         <section id="abstract">
             <h2>Abstract</h2>
-            <p>The lyric-to-melody generation task can support composers in their creative process, helping to improve their work efficiency. However, existing studies suffer from inadequate utilization of chords and a lack of bar-level information in melodies. To address the above issues, we propose a Chord-integrated and Bar-level modeled end-to-end Lyric-to-Melody (CBL2M) generation model based on an encoder-decoder architecture, effectively enriching contextual information based on existing quantitative data. To enhance the representation capabilities of the encoder, we extract chords from the melody and encode the lyrics and chords separately. In the decoder, we compute lyric-melody and chord-melody cross-attention. Furthermore, to accurately capture the regularities in bar durations within the melody, we design two specialized musical token sequences: the bar token sequence and the bar intra-position token sequence. We conducted extensive experiments on two datasets, with both subjective and objective evaluation metrics showing that CBL2M generates accurate high-quality melodies that outperform existing models.</p>
+            <p>The lyric-to-melody generation task can support composers in their creative process, helping to improve their work efficiency. However, existing studies suffer from inadequate utilization of chords and a lack of bar-level information in melodies. To address the above issues, we propose a Chord-integrated and Bar-level modeled end-to-end encoder-decoder Lyric-to-Melody (CBL2M) generation model, effectively enriching contextual information based on existing quantitative data. To enhance the representation capabilities of the encoder, we extract chords from the melody and encode the lyrics and chords separately. In the decoder, we compute lyric-melody and chord-melody cross-attention. Furthermore, to accurately capture the regularities in bar durations within the melody, we design two specialized musical token sequences: the bar token sequence and the bar intra-position token sequence. We conduct extensive experiments on two datasets, with both subjective and objective evaluation metrics showing that CBL2M generates accurate high-quality melodies that outperform existing models.</p>
         </section>
 
         <section id="samples">
@@ -117,7 +126,7 @@ Cdim C#m7b5 C# Ab Ebm7 C#
                 </div>
                 <div class="section">
                     <h4>Sheet Music</h4>
-                    <embed src="assets/pdf/144.pdf" type="application/pdf">
+                    <embed src="assets/pdf/144.pdf" type="application/pdf" class="pdf-embed">
                 </div>
                 <div class="section">
                     <h4>Melody</h4>
@@ -152,7 +161,7 @@ Am7 F Bm7b5 Am7 F Bm7
                 </div>
                 <div class="section">
                     <h4>Sheet Music</h4>
-                    <embed src="assets/pdf/312.pdf" type="application/pdf">
+                    <embed src="assets/pdf/312.pdf" type="application/pdf" class="pdf-embed">
                 </div>
                 <div class="section">
                     <h4>Melody</h4>
@@ -187,7 +196,7 @@ G Dm Am Dm7 Em7 C
                 </div>
                 <div class="section">
                     <h4>Sheet Music</h4>
-                    <embed src="assets/pdf/279.pdf" type="application/pdf">
+                    <embed src="assets/pdf/279.pdf" type="application/pdf" class="pdf-embed">
                 </div>
                 <div class="section">
                     <h4>Melody</h4>
@@ -222,7 +231,7 @@ Am Em7 Am Em7 Am Em Am C Am C Em7 Am
                 </div>
                 <div class="section">
                     <h4>Sheet Music</h4>
-                    <embed src="assets/pdf/zh_0.pdf" type="application/pdf">
+                    <embed src="assets/pdf/zh_0.pdf" type="application/pdf" class="pdf-embed">
                 </div>
                 <div class="section">
                     <h4>Melody</h4>
@@ -257,7 +266,7 @@ Am7 C Dm7 C Am7 C Am7 Em7 Am7
                 </div>
                 <div class="section">
                     <h4>Sheet Music</h4>
-                    <embed src="assets/pdf/zh_9.pdf" type="application/pdf">
+                    <embed src="assets/pdf/zh_9.pdf" type="application/pdf" class="pdf-embed">
                 </div>
                 <div class="section">
                     <h4>Melody</h4>
